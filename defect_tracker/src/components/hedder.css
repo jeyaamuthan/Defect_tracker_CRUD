@@ -1,0 +1,106 @@
+.header {
+    overflow: hidden;
+    background-image: url("bg3.jpg" );
+    /* opacity: 0.2; */
+   
+    /* background-image: linear-gradient(to right, #757474, #f0bfbf,#e9c9c9,#757474); */
+    padding: 20px 10px;
+   width: 100%;
+   height: 100px;
+   /* border: 10px  dotted black; */
+   border-bottom: 8px  double rgb(65, 20, 37);
+  
+    
+  }
+  
+  /* Style the header links */
+  .header-a {
+    float: left;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 4px;
+     
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    color: rgb(114, 53, 84);
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', MV Boli, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    left: 130px;
+    font: bold;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    
+    color: black;
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+    
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+    margin-right: 5%;
+    margin-top: 1.5%;
+   
+  }
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+      
+      
+    }
+  }
+  .btn-pad{
+      margin-left: 8px;
+    
+  }
+  body{
+/* background-color: rgb(218, 203, 203); */
+
+  /* background-image: url("bg4.jpg"); */
+  background-color: #a59fa4;
+ 
+  }
+  .btn {
+    /* background-color: rgb(168, 158, 164); */
+    border: none;
+    color: rgb(1, 0, 2);
+    padding: 12px 16px;
+    font-size: 20px;
+    cursor: pointer;
+    font: 26px bold;
+    font-family: Arial Black;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: rgb(172, 89, 139);
+  }
+  #bug{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 10px;
+    top: 0px;
+  }
